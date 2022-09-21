@@ -1,0 +1,119 @@
+10  john
+   11  john --help
+   12  pwd
+   13  sudo adduser jsw
+   14  sudo passwd jsw
+   15  su jsw
+   16  whoami
+   17  su jsw
+   18  su John Smith
+   19  su jsw
+   20  whoami
+   21  vim bob
+   22  vim bob
+   23  bob
+   24  ./bob
+   25  ls -l bob
+   26  chmod 744 bob
+   27  ls -l bob
+   28  ./bob
+   29  mkdir monroe
+   30  ls -l | grep monroe
+   31  chmod 754 monroe
+   32  ls -l | grep monroe
+   33  cd monroe
+   34  echo meadowbrook > brighton
+   35  cat brighton
+   36  ls -l brighton
+   37  su jsw
+   38  su jsw
+   39  `
+   40  exit
+   41  history
+   42  chmod 755 monroe
+   43  ls -l | grep monroe
+   44  cd monroe
+   45  su jsw
+   46  cd ..
+   47  chmod 777 monroe
+   48  ls -l | grep monroe
+   49  cd monroe
+   50  chmod 777 brighton
+   51  ls -l brighton
+   52  su jsw
+   53  cd ..
+   54  ls -l /usr/bin/passwd
+   55  mkdir sgid
+   56  chmod 2767 sgid
+   57  ls -l | grep sgid
+   58  su jsw
+   59  cd sgid
+   60  su jsw
+   61  cd ..
+   62  mkdir stickybit
+   63  chmod 1777 stickybit
+   64  ls -l | grep stickybit
+   65  cd stickybit
+   66  echo hi > file1
+   67  su jsw
+   68  ch ..
+   69  su jsw
+   70  cd ..
+   71  echo date > pizza
+   72  ls -l pizza
+   73  chmod 744 piza
+   74  chmod 744 pizza
+   75  ls -l pizza
+   76  sudo chown jsw pizza
+   77  ls -l pizza
+   78  sudo chgrp jsw pizza
+   79  ls -l pizza
+   80  su jsw
+   81  sudo chown root:root pizza
+   82  ls -l pizza
+   83  su jsw
+   84  sudo addgroup pentesters1
+   85  sudo addgroup pentesters2
+   86  sudo usermod -a -G pentesters1,pentesters2 jsw
+   87  grep pentesters /etc/group
+   88  groups jsw
+   89  sudo usermod -G pentesters1 jsw
+   90  groups jsw
+   91  sudo usermod -a -G pentesters1,pentesters2 jsw
+   92  sudo gpasswd -d jsw pentesters2
+   93  groups jsw
+   94  sudo adduser slice
+   95  sudo deluser slice
+   96  sudo addgroup cryptographers
+   97  sudo delgroup cryptographers
+   98  cd /
+   99  ls -a
+  100  ls -F
+  101  ls -R
+  102  ls -R | more
+  103  ls -R | less
+  104  clear
+  105  find / -name ping 2>&1 | grep -v "Permission denied"
+  106  man find
+  107  vim months
+  108  head months
+  109  head -7 months
+  110  head -n -7 months
+  111  head -n -3 months
+  112  tail months
+  113  tail -3 months
+  114  tail -n 3 months
+  115  tail +3 months
+  116  sudo john
+  117  man john
+  118  sudo john --test
+  119  sudo adduser weissman
+  120  cat /etc/passwd
+  121  sudo cat /etc/shado
+  122  sudo cat /etc/shadow
+  123  sudo unshadow /etc/passwd /etc/shadow > rochester.txt
+  124  cat rochester.txt
+  125  sudo john --wordlist=/usr/share/john/password.lst --format=crypt rochester.txt
+  126  sudo john --show --format=crypt rochester.txt
+  127  sudo rm/root/.john/john.pot
+  128  history
